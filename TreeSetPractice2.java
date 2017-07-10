@@ -7,16 +7,16 @@ public class TreeSetPractice2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-TreeSet<Integer> t3=new TreeSet<Integer>(new CompareInorder());
-t3.add(1);
-t3.add(2);
-t3.add(3);
-t3.add(4);
-t3.add(5);
-t3.add(6);
-t3.add(7);
+TreeSet<String> t3=new TreeSet<String>(new CompareReverseAlphabet());
+t3.add("a");
+t3.add("b");
+t3.add("c");
+t3.add("d");
+t3.add("e");
+t3.add("f");
+t3.add("g");
 
-System.out.println("Inorder printing using comparator->");
+System.out.println("Reverse alphabet printing using comparator->");
 System.out.println(t3);
 
 	}
